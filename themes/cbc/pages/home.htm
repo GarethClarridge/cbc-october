@@ -1,0 +1,240 @@
+title = "Home"
+url = "/"
+hidden = "0"
+==
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ this.page.title }} - Crockenhill Baptist Church</title>
+    <meta name="author" content="Crockenhill Baptist Church">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{ 'assets/images/square-oswald-compressed-website-optimised.png'|theme }}" />
+    {% styles %}
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300italic|Oswald' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ [
+        'assets/css/theme.css'
+    ]|theme }}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Header -->
+    <header id="layout-header">
+
+      <!-- Nav -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-inner">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              Crockenhill Baptist Church
+            </a>
+            <span class="nav-no-notch"></span>
+          </div>
+          <div class="navbar-collapse collapse">
+
+
+
+            <ul class="nav navbar-nav navbar-right">
+              
+              <li>
+                <a href="http://www.facebook.com/crockenhill">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              
+              <li>
+                <a href="http://www.twitter.com/crockenhill">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            
+              <li>
+                <a href="http://www.facebook.com/crockenhill">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!-- Content -->
+    <section id="layout-content">
+      <main class="home">
+        <div class="home-head">
+          <div class="container">
+            <h1 class="text-center">Crockenhill Baptist Church</h1>
+            <p class="text-center lead">A friendly, Bible believing church just outside Swanley.</p>
+            <p class="text-center arrow">
+              <a href="#video">
+                <span class="glyphicon glyphicon-chevron-down"></span>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="home-body">
+          <div class="container">
+            
+            <a class="jump-destination" name="video">
+              </br></br>
+            </a>
+            <video src="videos/Welcome.mp4" controls>
+              Your browser does not support the <code>video</code> element.
+            </video>
+            
+            <div id="container" class="js-masonry" data-masonry-options='{"itemSelector": ".home-block"}'>
+              <div class="home-block-list">
+                <a href="" class="home-block">
+                  <section class="media">
+                    <div class="pull-left glyphicon glyphicon-user media-object"></div>
+                    <div class="media-body">
+                      <h3 class="media-heading">Who?</h3>
+                      <p>Although the church exists worldwide, we are a local expression of the world-wide family of God’s people in Crockenhill – and have been for over 200 years!</p>
+                    </div>
+                  </section>
+                </a>
+
+                <a href="" class="home-block">
+                  <section class="media">
+                    <div class="pull-left glyphicon glyphicon-calendar media-object"></div>
+                    <div class="media-body">
+                      <h3 class="media-heading">What?</h3>
+                      <p>There are many things on at Crockenhill Baptist Church. The main meetings are our Sunday services, but we also have many other groups. We have groups for children and young people, bible study and prayer groups, a men's group, and many more.</p>
+                    </div>
+                  </section>
+                </a>
+
+                <a href="" class="home-block">               
+                  <section class="media">
+                    <div class="pull-left glyphicon glyphicon-home media-object"></div>
+                    <div class="media-body">
+                      <h3 class="media-heading">Where?</h3>
+                      <p>We are located in the village of Crockenhill in Kent, which is a mile or so south of Swanley. If you are travelling from a distance, we are just off junction 3 of the M25. </p>
+                    </div>
+                  </section>
+                </a>
+
+                <a href="" class="home-block">
+                  <section class="media">
+                    <div class="pull-left glyphicon glyphicon-time media-object"></div>
+                    <div class="media-body">
+                        <h3 class="media-heading">When?</h3>
+                        <p>Our main church gatherings are on Sundays. Our morning worship service starts at 10:30 a.m. and includes those of all ages. The evening meeting starts at 6:30 p.m., where a different sermon is preached. Once a month we have an all-age service at 5:00 p.m. During the week we meet for Bible study and prayer in smaller groups.</p>
+                    </div>
+                  </section>
+                </a>
+
+                <a href="" class="home-block">
+                  <section class="media">
+                    <div class="pull-left glyphicon glyphicon-question-sign media-object"></div>
+                    <div class="media-body">
+                      <h3 class="media-heading">Why?</h3>
+                      <p>Our church exists to worship God, strengthen believers in their faith, and to proclaim the good news of Christianity to all, so that others might experience the wonderful salvation of God through faith in Jesus Christ. We are far from being a perfect church, but can testify to God’s goodness and power in helping us to live for him.</p>
+                    </div>
+                  </section>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+      <div class="row">
+        <section class="col-md-6 col-lg-3">
+          <h4 class="text-center">Latest Morning Sermon</h4>
+          <p class="text-center">
+            <a href="">morning->title</a>
+          </p>
+          <p class="text-center">morning->reference</p>
+        </section>
+
+        <section class="col-md-6 col-lg-3">
+          <h4 class="text-center">Latest Evening Sermon</h4>
+          <p class="text-center">
+            <a href="">evening->title</a>
+          </p>
+          <p class="text-center">evening->reference</p>
+        </section>
+
+        <section class="col-md-6 col-lg-3">
+          <h4 class="text-center">Get in touch</h4>
+          <p class="text-center">
+            <span class="glyphicon glyphicon-earphone"></span>
+             &nbsp&nbsp 01322 663995
+           </p>
+          <p class="text-center">
+            <span class="glyphicon glyphicon-envelope"></span>
+             &nbsp&nbsp  
+            <a href="mailto:pastor@crockenhill.org">pastor@crockenhill.org</a>
+          </p>
+          <p class="text-center">
+            <i class="fa fa-facebook"></i>
+             &nbsp&nbsp
+            <a href="http://www.facebook.com/crockenhill">Like us on Facebook</a>
+          </p>
+          <p class="text-center">
+            <i class="fa fa-twitter"></i>
+             &nbsp&nbsp
+            <a href="http://www.twitter.com/crockenhill">Follow us on Twitter</a>
+          </p>
+        </section>
+
+        <section class="col-md-6 col-lg-3">
+          <h4 class="text-center">Address</h4>
+          <address class="text-center">
+            Crockenhill Baptist Church<br />
+            Eynsford Road<br />
+            Crockenhill<br />
+            Kent<br />
+            BR8 8JS<br />
+          </address>
+        </section>
+      </div>
+
+      <div class="row">
+        <section class="col-md-6 col-md-offset-3">
+          <a href="http://www.fiec.org.uk">
+            <img src="/themes/cbc/assets/images/fiec-affiliated-tagline-white.png" width="100%">
+          </a>
+        </section>
+
+        <section class="col-sm-12">
+          <p class="text-center copyright"><small>© date('Y') Crockenhill Baptist Church</small></p>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="{{ [
+        'assets/javascript/app.js'
+    ]|theme }}"></script>
+    {% framework extras %}
+    {% scripts %}
+
+  </body>
+</html>

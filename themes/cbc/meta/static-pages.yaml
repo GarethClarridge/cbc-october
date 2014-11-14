@@ -1,2 +1,5 @@
 static-pages:
-    index: {  }
+    about-us: {  }
+    contact-us: {  }
+    whats-on: {  }
+    find-us: {  }
