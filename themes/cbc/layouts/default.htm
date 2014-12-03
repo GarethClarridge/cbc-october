@@ -1,12 +1,18 @@
 description = "Default layout"
 
 [staticPage]
+
+
+[staticMenu]
+code = "header"
+
+[SeoStaticPage]
 ==
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ this.page.title }} - Crockenhill Baptist Church</title>
+    {% component 'SeoStaticPage' %}
     <meta name="author" content="Crockenhill Baptist Church">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{{ 'assets/images/square-oswald-compressed-website-optimised.png'|theme }}" />
@@ -47,11 +53,11 @@ description = "Default layout"
           </div>
           <div class="navbar-collapse collapse">
 
-            {% component 'staticMenu' %}
+            {% partial 'menu-items' items=staticMenu.menuItems class='nav navbar-nav' %}
 
             <ul class="nav navbar-nav navbar-right">
               
-              <li>
+              <!-- <li>
                 <a href="http://www.facebook.com/crockenhill">
                   <i class="fa fa-facebook"></i>
                 </a>
@@ -67,7 +73,7 @@ description = "Default layout"
                 <a href="http://www.facebook.com/crockenhill">
                   <i class="fa fa-google-plus"></i>
                 </a>
-              </li>
+              </li> -->
               
             </ul>
           </div>
@@ -155,7 +161,7 @@ description = "Default layout"
         </section>
 
         <section class="col-sm-12">
-          <p class="text-center copyright"><small>&copy; date('Y') Crockenhill Baptist Church</small></p>
+          <p class="text-center copyright"><small>© date('Y') Crockenhill Baptist Church</small></p>
         </section>
       </div>
     </footer>

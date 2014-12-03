@@ -1,5 +1,24 @@
 static-pages:
-    about-us: {  }
-    contact-us: {  }
-    whats-on: {  }
+    about-us:
+        about-us-links: {  }
+        about-us-history: {  }
+        about-us-pastor: {  }
+        about-us-statement-faith: {  }
+        about-us-what-we-believe: {  }
+    whats-on:
+        whats-on-1150: {  }
+        whats-on-sunday: {  }
+        whats-on-bible-studies: {  }
+        whats-on-baby-talk: {  }
+        whats-on-adventurers: {  }
+        whats-on-link: {  }
+        whats-on-menzone: {  }
+        whats-on-coffee-cup: {  }
+        whats-on-cameo: {  }
+        whats-on-walking-group: {  }
+        whats-on-buzz-club: {  }
+        whats-on-family-fun-night: {  }
+        whats-on-carols-chequers: {  }
+        whats-on-christianity-explored: {  }
     find-us: {  }
+    contact-us: {  }

@@ -1,6 +1,11 @@
 title = "Home"
 url = "/"
 hidden = "0"
+robot_index = "index"
+robot_follow = "follow"
+
+[staticMenu]
+code = "header"
 ==
 <!DOCTYPE html>
 <html>
@@ -47,11 +52,11 @@ hidden = "0"
           </div>
           <div class="navbar-collapse collapse">
 
-
+            {% partial 'menu-items' items=staticMenu.menuItems class='nav navbar-nav' %}
 
             <ul class="nav navbar-nav navbar-right">
               
-              <li>
+              <!-- <li>
                 <a href="http://www.facebook.com/crockenhill">
                   <i class="fa fa-facebook"></i>
                 </a>
@@ -67,7 +72,7 @@ hidden = "0"
                 <a href="http://www.facebook.com/crockenhill">
                   <i class="fa fa-google-plus"></i>
                 </a>
-              </li>
+              </li> -->
               
             </ul>
           </div>
